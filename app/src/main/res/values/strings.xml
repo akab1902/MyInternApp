@@ -9,4 +9,5 @@
     <string name="deadline_label">Deadline:</string>
     <string name="deadline_hint">e.g. Before interview or 19 Jan</string>
     <string name="add_task_button_label">Add task</string>
+    <string name="date_created_text">Date Created:</string>
 </resources>

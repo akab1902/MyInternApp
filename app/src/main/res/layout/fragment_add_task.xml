@@ -15,6 +15,7 @@
         android:id="@+id/editText_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:hint="@string/title_hint"
         android:inputType="text" />
 
@@ -28,6 +29,7 @@
         android:id="@+id/editText_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:hint="@string/description_hint"
         android:inputType="text" />
 
@@ -40,7 +42,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView_tags"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" />
 
     <TextView
         android:id="@+id/textView_deadlineLabel"
@@ -52,8 +56,16 @@
         android:id="@+id/editText_deadline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:hint="@string/deadline_hint"
         android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/date_created_text" />
 
     <LinearLayout
         android:layout_width="wrap_content"
