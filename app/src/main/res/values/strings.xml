@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MyInternApp</string>
+    <string name="add_new_task_button">Add new task button</string>
+    <string name="title_label">Title:</string>
+    <string name="title_hint">e.g. Take a shower</string>
+    <string name="description_label">Description:</string>
+    <string name="description_hint">e.g. To be prepared for an interview</string>
+    <string name="tags_label">Tags:</string>
+    <string name="deadline_label">Deadline:</string>
+    <string name="deadline_hint">e.g. Before interview or 19 Jan</string>
+    <string name="add_task_button_label">Add task</string>
 </resources>

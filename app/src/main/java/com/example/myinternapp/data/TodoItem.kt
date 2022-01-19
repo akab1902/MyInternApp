@@ -9,4 +9,5 @@ data class TodoItem(
    val tags: ArrayList<Tag>,
    val completed: Boolean,
    val createdDate: Date,
+   val deadlineDate: Date
 )
